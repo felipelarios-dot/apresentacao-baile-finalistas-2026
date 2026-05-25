@@ -625,6 +625,53 @@
     margin-top: 0.3rem;
   }
 
+  /* ========== GARANTIA DE PREÇO ========== */
+  .price-guarantee {
+    max-width: 900px;
+    margin: 3rem auto 0;
+    display: flex;
+    align-items: center;
+    gap: 1.2rem;
+    padding: 1.3rem 1.8rem;
+    background: var(--cream);
+    border-left: 4px solid var(--gold-deep);
+    border-radius: 2px;
+  }
+
+  .price-guarantee-icon {
+    flex-shrink: 0;
+    width: 36px;
+    height: 36px;
+    background: var(--gold-deep);
+    color: var(--paper);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.1rem;
+    font-weight: 700;
+  }
+
+  .price-guarantee-text {
+    font-size: 0.95rem;
+    line-height: 1.5;
+    color: rgba(26, 20, 16, 0.85);
+  }
+
+  .price-guarantee-text strong {
+    color: var(--gold-deep);
+    font-weight: 600;
+  }
+
+  @media (max-width: 768px) {
+    .price-guarantee {
+      flex-direction: column;
+      text-align: center;
+      gap: 0.8rem;
+      padding: 1.2rem;
+    }
+  }
+
   /* ========== BANNER OFERTA (P3) ========== */
   .early-bird-banner {
     display: flex;
@@ -1645,6 +1692,14 @@
 
     </div>
 
+    <!-- GARANTIA DE PREÇO -->
+    <div class="price-guarantee reveal">
+      <div class="price-guarantee-icon">✓</div>
+      <div class="price-guarantee-text">
+        <strong>Garantia de preço por foto:</strong> ao contratar qualquer pacote, garantes o mesmo preço unitário caso queiras comprar mais fotografias avulsas depois do evento. O preço de €8 por foto aplica-se apenas a quem não contratou pacote.
+      </div>
+    </div>
+
     <!-- EXTRA OPCIONAL -->
     <div class="extra-callout reveal">
       <div class="extra-tag">Extra Opcional · Disponível em qualquer pacote</div>
@@ -1767,7 +1822,7 @@
     <div class="price-warning reveal">
       <div class="price-warning-icon">€</div>
       <div class="price-warning-text">
-        <strong>Fazendo as contas:</strong> no Pacote 03 (Cobertura Total · 50 fotos por €200) cada fotografia sai a apenas <strong>€4</strong>. Comprar fotografias avulsas após o evento custa <strong>€8 cada</strong> — o dobro. Quem fecha antes paga metade por fotografia e ainda recebe o vídeo instagramável de brinde.
+        <strong>Fazendo as contas:</strong> no Pacote 03 (Cobertura Total · 50 fotos por €200) cada fotografia sai a apenas <strong>€4</strong>. Comprar fotografias avulsas após o evento sem pacote contratado custa <strong>€8 cada</strong> — o dobro. Quem contrata um pacote garante o mesmo preço unitário para fotografias adicionais que queira no futuro.
       </div>
     </div>
   </section>
@@ -1856,6 +1911,14 @@
           <span class="faq-toggle">+</span>
         </div>
         <div class="faq-answer">É precisamente por isso que a Nathália é perfeita para este evento. O estilo dela é espontâneo e natural — as melhores fotos acontecem quando ninguém está a posar. Vais ver o resultado e surpreender-te.</div>
+      </div>
+
+      <div class="faq-item reveal">
+        <div class="faq-question">
+          <span>E se eu quiser comprar mais fotografias depois do evento?</span>
+          <span class="faq-toggle">+</span>
+        </div>
+        <div class="faq-answer">Se contrataste um pacote, garantes o <strong>mesmo preço por foto</strong> caso queiras adquirir fotografias adicionais depois do evento (€6, €5 ou €4 por foto conforme o pacote contratado). O valor de €8 por foto aplica-se apenas a quem não contratou pacote nenhum. É mais um motivo para contratar antes — não fica preso ao número de fotografias do pacote inicial.</div>
       </div>
 
       <div class="faq-item reveal">
